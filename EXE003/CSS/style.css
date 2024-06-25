@@ -1,0 +1,138 @@
+@charset "UTF-8";
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --branco: #ffffff;
+    --preto: #000000;    
+    --cinza: #818881;    
+    --vermelho: #EC0C09;    
+    --verde: #5EB616;
+    --laranja: #ff4000;
+    --azul: #062276;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100vh;
+    
+}
+
+header{
+    background-color: var(--preto);
+    color: var(--branco);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;       
+
+}
+
+nav{
+    background-color: var(--vermelho);
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: var(--branco);
+}
+
+nav a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--branco);
+}
+
+main{
+    text-indent: 5px;
+    background-color: var(--preto);
+    color: var(--branco);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 70%;
+    margin: 2px auto 2px;
+
+}
+
+footer{
+    background-color: var(--vermelho);
+    color: var(--branco);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    margin: 2px auto 2px;
+    position: relative;
+
+}
+
+form{
+    margin: 15px;
+    padding: 10px;
+    color: var(--branco);
+    height: 450px;
+    width: 700px;
+}
+
+.formu{
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+.p1{
+    text-align: left;
+    text-indent: 50px;
+    color: var(--branco);
+
+}
+
+.p2{
+    text-align: center;
+    text-indent: 50px;
+    color: var(--branco);
+
+}
+
+.p3{
+    text-align: left;
+    text-indent: 50px;
+    color: var(--branco);
+
+}
+
+.p4{
+    text-align: left;
+    text-indent: 50px;
+    color: var(--branco);
+
+}
+.p5{
+    text-align: left;
+    text-indent: 50px;
+    color: var(--branco);
+
+}
+
+.p6{
+    text-align: left;
+    text-indent: 50px;
+    color: var(--branco);
+
+}
+
+.p7{
+    text-align: left;
+    text-indent: 50px;
+    color: var(--branco);
+
+}
